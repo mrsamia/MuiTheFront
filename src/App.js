@@ -1,13 +1,14 @@
 import './App.css';
-import Buton from './Components/Buton';
 import Nav from './Components/Nav';
+import FirstPart from './Pages/FirstPart';
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <Buton variant="outlined" name="View Pages"/>
-      <Buton variant="contained" name="Documentation"/>
+    <div>
+      <Nav />
+      <div className='pt-5 '>
+        <FirstPart />
+      </div>
     </div>
   );
 }
