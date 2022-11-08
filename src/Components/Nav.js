@@ -4,7 +4,7 @@ import { Toolbar, Typography } from '@mui/material';
 function Nav(props) {
     return (
         <div>
-            <AppBar position='relative'>
+            <AppBar position='fixed'>
                 <Toolbar>
                     <Typography variant='h6'>Photo Album</Typography>
                 </Toolbar>
