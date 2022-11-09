@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
     btn: {
         padding: "10px 22px!important"
     },
-    SecondPartWrapper:{
-        paddingTop:"80px",
+    PartWrapper:{
+        paddingTop:"100px",
         textAlign:"center"
     },
     icon:{

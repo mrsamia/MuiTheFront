@@ -8,7 +8,7 @@ import Styles from '../CSS/Styles';
 function SecondPart(props) {
     const classes = Styles();
     return (
-        <Container className={classes.SecondPartWrapper}>
+        <Container className={classes.PartWrapper}>
             <Typography variant='h4'gutterBottom>Build accessible React apps with speed</Typography>
             <Typography gutterBottom className={classes.cssDhnteq}>Build a beautiful, modern website with flexible, fully customizable, atomic MUI components.</Typography>
 
