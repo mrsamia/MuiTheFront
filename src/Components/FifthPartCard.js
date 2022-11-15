@@ -7,9 +7,9 @@ function FifthPartCard(props) {
     const classes = Styles();
     return (
        <Container>
-         <Grid container  >
-                <Grid item  >
-                    <Card >
+         <Grid container >
+                <Grid item >
+                    <Card item >
                         <CardContent>
                             <AlarmOnIcon className={classes.icon} />
                             <Typography variant='h5' gutterBottom>{props.title}</Typography>

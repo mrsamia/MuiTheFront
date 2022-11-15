@@ -12,16 +12,16 @@ function FifthPart(props) {
             <Container className={classes.fourthPartWrapper}>
 
                 <Grid container spacing={2}>
-                    <Grid item  xs={4}>
-                    {
-                    <FifthPartCard
-                        title={e.title}
-                        content={e.content}
-                    />
-                }
+                    <Grid item xs={4}>
+                        {
+                            <FifthPartCard
+                                title={e.title}
+                                content={e.content}
+                            />
+                        }
                     </Grid>
                 </Grid>
-              
+
             </Container>
         )
     })
