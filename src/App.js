@@ -1,4 +1,5 @@
 import './App.css';
+import Buton from './Components/Buton';
 import Nav from './Components/Nav';
 import FifthPart from './Pages/FifthPart';
 import FirstPart from './Pages/FirstPart';
@@ -16,6 +17,7 @@ function App() {
         <ThirdPart/>
         <FourthPart/>
         <FifthPart/>
+        <Buton/>
       </div>
     </div>
   );
